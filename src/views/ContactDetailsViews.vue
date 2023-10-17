@@ -24,7 +24,6 @@
 
     <Loader v-if="isLoading" class="contact-form__loader" message="Контакт удален"/>
 
-
     <!-- Заголовок формы -->
     <h2 class="contact-form__title">Новый контакт</h2>
 
