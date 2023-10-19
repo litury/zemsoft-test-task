@@ -19,7 +19,7 @@
 
 
 <script setup lang="ts">
-import ContactFilter from "@/components/ContactList/ContactFilter.vue";
+import ContactFilter from "@/components/ContactDetails/ContactFilter.vue";
 import AppHeader from "@/components/AppHeader.vue";
 import ContactList from "@/components/ContactList/ContactList.vue";
 import LogotypeSvg from "@/components/icons/LogotypeSvg.vue";

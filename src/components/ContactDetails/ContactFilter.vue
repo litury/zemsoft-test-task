@@ -1,7 +1,7 @@
 <template>
   <div class="filter">
     <div class="filter__wrapper">
-    <FilterSelect :options="categories" default="Все"/>
+    <FilterSelect />
 
     <ButtonAdd
     :normalComponent="ButtonIcon"
@@ -13,14 +13,12 @@
 
 <script setup lang="ts">
 import {ref} from "vue";
-import ButtonAdd from "@/components/ContactList/ButtonAdd.vue";
+import ButtonAdd from "@/components/ContactDetails/ButtonAdd.vue";
 import FilterSelect from "@/components/ContactList/FilterSelect.vue";
 
 import ButtonIcon from "@/components/icons/ButtonIcon.vue";
 import ButtonSaveLoader from "@/components/icons/ButtonSaveLoader.vue";
 
-// фильтр по категории
-const categories = ref(['Все', 'Работа', 'Друзья', 'Семья', 'Другое']);
 
 </script>
 

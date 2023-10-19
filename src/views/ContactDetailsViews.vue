@@ -180,7 +180,7 @@
 // Импортируем компоненты и иконки
 import ClossedIcon from "@/components/icons/ClossedIcon.vue";
 import AppHeader from "@/components/AppHeader.vue";
-import ButtonDelete from "@/components/ContactList/ButtonDelete.vue";
+import ButtonDelete from "@/components/ContactDetails/ButtonDelete.vue";
 import Loader from "@/components/Loader.vue";
 
 // Импортируем функции из vue, vue-router и contactsStore
